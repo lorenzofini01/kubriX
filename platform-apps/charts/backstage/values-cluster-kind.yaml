@@ -22,14 +22,14 @@ backstage:
         mountPath: /mkcert-cacert
     appConfig:
       app:
-        baseUrl: https://backstage.127-0-0-1.nip.io
+        baseUrl: https://solitary-troll-4r5pp5wv5xw35gpv-6691.app.github.dev
 
       backend:
-        baseUrl: https://backstage.127-0-0-1.nip.io
+        baseUrl: https://solitary-troll-4r5pp5wv5xw35gpv-6691.app.github.dev
         csp:
           frame-src: ['*.nip.io']
         cors:
-          origin: https://backstage.127-0-0-1.nip.io
+          origin: https://solitary-troll-4r5pp5wv5xw35gpv-6691.app.github.dev
 
       proxy:
         endpoints:
@@ -49,7 +49,7 @@ backstage:
         providers:
           oidc:
             development:
-              callbackUrl: https://backstage.127-0-0-1.nip.io/api/auth/oidc/handler/frame
+              callbackUrl: https://solitary-troll-4r5pp5wv5xw35gpv-6691.app.github.dev/api/auth/oidc/handler/frame
 
       explore:
         tools:
